@@ -88,7 +88,6 @@ namespace IngameScript
             StringBuilder report = new StringBuilder("\n\nFuel:");
             report.Append("\n====================");
             report.Append($"\n{FormatNumber((currentStorage/ FuelTanks.Count) * 100)}%");
-            report.Append($"\nTank Count: {FuelTanks.Count}");
 
             return report;
         }
